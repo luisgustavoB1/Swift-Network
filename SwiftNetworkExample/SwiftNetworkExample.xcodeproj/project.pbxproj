@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ED73B1C2F36C9B300873D02 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED73B1B2F36C9A600873D02 /* Provider.swift */; };
+		A1000001 /* SwiftNetworkExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* SwiftNetworkExampleApp.swift */; };
+		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* ContentView.swift */; };
+		A1000003 /* JSONPlaceholderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* JSONPlaceholderAPI.swift */; };
+		A1000004 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* APIService.swift */; };
+		A1000005 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* PostsView.swift */; };
+		A1000006 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* UsersView.swift */; };
+		A1000007 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* CreatePostView.swift */; };
+		A1000008 /* CombineDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008 /* CombineDemoView.swift */; };
+		A1000009 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009 /* HomeView.swift */; };
+		A1000010 /* SwiftNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = A3000010 /* SwiftNetwork */; };
+		A1000011 /* SwiftNetworkCombine in Frameworks */ = {isa = PBXBuildFile; productRef = A3000011 /* SwiftNetworkCombine */; };
+		A1000012 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000012 /* APIConstants.swift */; };
+		A1000013 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000013 /* AppConstants.swift */; };
+		A1000014 /* HomeEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014 /* HomeEndpoint.swift */; };
+		A1000015 /* HomeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015 /* HomeServiceProtocol.swift */; };
+		A1000016 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016 /* HomeService.swift */; };
+		A1000017 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017 /* HomeViewModel.swift */; };
+		A1000018 /* HomeNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000018 /* HomeNetworkConfig.swift */; };
+		A1000019 /* HomeNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000019 /* HomeNetworkClient.swift */; };
+		A1000020 /* TMDBMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000020 /* TMDBMovie.swift */; };
+		A1000021 /* Error+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000021 /* Error+Display.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ED73B1B2F36C9A600873D02 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		A2000000 /* SwiftNetworkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNetworkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000001 /* SwiftNetworkExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNetworkExampleApp.swift; sourceTree = "<group>"; };
+		A2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2000003 /* JSONPlaceholderAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPlaceholderAPI.swift; sourceTree = "<group>"; };
+		A2000004 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A2000005 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		A2000006 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		A2000007 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		A2000008 /* CombineDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDemoView.swift; sourceTree = "<group>"; };
+		A2000009 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A2000012 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		A2000013 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		A2000014 /* HomeEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEndpoint.swift; sourceTree = "<group>"; };
+		A2000015 /* HomeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceProtocol.swift; sourceTree = "<group>"; };
+		A2000016 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		A2000017 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A2000018 /* HomeNetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkConfig.swift; sourceTree = "<group>"; };
+		A2000019 /* HomeNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNetworkClient.swift; sourceTree = "<group>"; };
+		A2000020 /* TMDBMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBMovie.swift; sourceTree = "<group>"; };
+		A2000021 /* Error+Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Display.swift"; sourceTree = "<group>"; };
+		A5000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000010 /* SwiftNetwork in Frameworks */,
+				A1000011 /* SwiftNetworkCombine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5000001 = {
+			isa = PBXGroup;
+			children = (
+				A5000002 /* SwiftNetworkExample */,
+				A5000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5000002 /* SwiftNetworkExample */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001 /* SwiftNetworkExampleApp.swift */,
+				A2000002 /* ContentView.swift */,
+				A5000004 /* API */,
+				A5000009 /* Core */,
+				A5000011 /* Home */,
+				A5000005 /* Services */,
+				A5000006 /* Views */,
+				A5000008 /* Info.plist */,
+			);
+			name = SwiftNetworkExample;
+			path = ".";
+			sourceTree = "<group>";
+		};
+		A5000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000 /* SwiftNetworkExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5000004 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A2000003 /* JSONPlaceholderAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A5000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2000004 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2000005 /* PostsView.swift */,
+				A2000006 /* UsersView.swift */,
+				A2000007 /* CreatePostView.swift */,
+				A2000008 /* CombineDemoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5000009 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A2000012 /* APIConstants.swift */,
+				A2000013 /* AppConstants.swift */,
+				A2000021 /* Error+Display.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A5000011 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5000012 /* Network */,
+				A5000013 /* Models */,
+				A5000014 /* API */,
+				A5000015 /* Services */,
+				A5000016 /* ViewModels */,
+				A5000017 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5000012 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6ED73B1B2F36C9A600873D02 /* Provider.swift */,
+				A2000018 /* HomeNetworkConfig.swift */,
+				A2000019 /* HomeNetworkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A5000013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2000020 /* TMDBMovie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5000014 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A2000014 /* HomeEndpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A5000015 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2000015 /* HomeServiceProtocol.swift */,
+				A2000016 /* HomeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5000016 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A2000017 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A5000017 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2000009 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6000001 /* SwiftNetworkExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7000003 /* Build configuration list for PBXNativeTarget "SwiftNetworkExample" */;
+			buildPhases = (
+				A6000002 /* Sources */,
+				A4000001 /* Frameworks */,
+				A6000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftNetworkExample;
+			productName = SwiftNetworkExample;
+			productReference = A2000000 /* SwiftNetworkExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A7000001 /* Build configuration list for PBXProject "SwiftNetworkExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5000001;
+			packageReferences = (
+				A9000001 /* XCLocalSwiftPackageReference "SwiftNetwork" */,
+			);
+			productRefGroup = A5000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6000001 /* SwiftNetworkExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* SwiftNetworkExampleApp.swift in Sources */,
+				A1000002 /* ContentView.swift in Sources */,
+				A1000003 /* JSONPlaceholderAPI.swift in Sources */,
+				A1000004 /* APIService.swift in Sources */,
+				A1000005 /* PostsView.swift in Sources */,
+				A1000006 /* UsersView.swift in Sources */,
+				A1000007 /* CreatePostView.swift in Sources */,
+				A1000008 /* CombineDemoView.swift in Sources */,
+				A1000009 /* HomeView.swift in Sources */,
+				A1000012 /* APIConstants.swift in Sources */,
+				A1000021 /* Error+Display.swift in Sources */,
+				6ED73B1C2F36C9B300873D02 /* Provider.swift in Sources */,
+				A1000013 /* AppConstants.swift in Sources */,
+				A1000014 /* HomeEndpoint.swift in Sources */,
+				A1000015 /* HomeServiceProtocol.swift in Sources */,
+				A1000016 /* HomeService.swift in Sources */,
+				A1000017 /* HomeViewModel.swift in Sources */,
+				A1000018 /* HomeNetworkConfig.swift in Sources */,
+				A1000019 /* HomeNetworkClient.swift in Sources */,
+				A1000020 /* TMDBMovie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftnetwork.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftnetwork.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7000001 /* Build configuration list for PBXProject "SwiftNetworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000001 /* Debug */,
+				AA000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7000003 /* Build configuration list for PBXNativeTarget "SwiftNetworkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000003 /* Debug */,
+				AA000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A9000001 /* XCLocalSwiftPackageReference "SwiftNetwork" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A3000010 /* SwiftNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9000001 /* XCLocalSwiftPackageReference "SwiftNetwork" */;
+			productName = SwiftNetwork;
+		};
+		A3000011 /* SwiftNetworkCombine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9000001 /* XCLocalSwiftPackageReference "SwiftNetwork" */;
+			productName = SwiftNetworkCombine;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A8000001 /* Project object */;
+}
