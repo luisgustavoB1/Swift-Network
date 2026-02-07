@@ -34,7 +34,7 @@ Add the package to your project’s `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YOUR_USERNAME/SwiftNetwork.git", from: "1.0.0")
+    .package(url: "https://github.com/luisgustavoB1/SwiftNetwork.git", from: "1.0.0")
 ]
 ```
 
